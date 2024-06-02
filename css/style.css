@@ -192,6 +192,17 @@ input:-webkit-autofill:focus {
   color: rgba(52, 49, 61, 0.5);
 } */
 
+.header {
+  padding-top: 2.5rem;
+  padding-bottom: 6.5rem;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8rem;
+}
 
 
 /* MAIN-CONTENT */
