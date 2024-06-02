@@ -125,6 +125,27 @@ img {
   opacity: 0.8;
 }
 
+/* LOGO */
+
+.logo {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2rem;
+  letter-spacing: -0.44px;
+  color: #fff;
+}
+
+.logo:hover {
+  opacity: 0.8;
+}
+
+.logo:active {
+  opacity: 0.6;
+}
+
+
+
+
 /* AUTOFILL-STYLES */
 /*
 input:-webkit-autofill,
