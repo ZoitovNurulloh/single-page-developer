@@ -145,6 +145,37 @@ img {
 
 
 
+/* NAV */
+
+.nav__list {
+  display: flex;
+  align-items: center;
+}
+.nav__item:not(:last-child) {
+  margin-right: 2rem;
+}
+
+.nav__link {
+  display: block;
+  color: #fff;
+  transition: color 0.4s ease,
+              opacity 0.3s ease;
+}
+
+.nav__link:hover {
+  color: var(--green);
+}
+
+.nav__link:active {
+  opacity: 0.8;
+}
+
+.nav__icon {
+  display: block;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
 
 /* AUTOFILL-STYLES */
 /*
