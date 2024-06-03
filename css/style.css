@@ -275,3 +275,18 @@ only screen and (                min-resolution: 2dppx) {
   }
 
   /* FOOTER */
+
+  .footer__container {
+    flex-direction: column;
+  }
+
+  .footer__logo {
+    margin-bottom: 1.25rem;
+  }
+
+  .footer__container .nav__item:not(:last-child) {
+    margin-right: 1.6rem;
+  }
+}
+
+
