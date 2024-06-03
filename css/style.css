@@ -250,3 +250,12 @@ only screen and (                min-resolution: 2dppx) {
   }
 
   /* FOOTER */
+  .footer {
+    padding-top: 1.875rem;
+    padding-bottom: 2.5rem;
+  }
+
+}
+
+
+@media only screen and (max-width:470px) {
