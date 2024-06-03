@@ -192,9 +192,17 @@ input:-webkit-autofill:focus {
   color: rgba(52, 49, 61, 0.5);
 } */
 
+
+
+/* HEADER */
+
 .header {
   padding-top: 2.5rem;
   padding-bottom: 13.7rem;
+  background-image: url(../img/image-profile-desktop.webp);
+  background-repeat: no-repeat;
+  background-size: 27.81rem 45rem;
+  background-position: right 8.5rem top 0;
 }
 
 .header__container {
@@ -239,10 +247,32 @@ only screen and (                min-resolution: 2dppx) {
 }
 
 
+@media only screen and (max-width:1300px) {
+  .header {
+    background-position: right top;
+  }
+}
+
+@media only screen and (max-width:1050px) {
+  .header {
+    background-size:20rem auto;
+  }
+}
+
+@media only screen and (max-width:889px) {
+  .header {
+    background-image:none;
+  }
+}
+
+
+
 @media only screen and (max-width:768px) {
   .header {
     padding-top: 1.875rem;
     padding-bottom: 3.75rem;
+    background-image:url("../img/image-profile-tablet.webp");
+    background-size: 322px 600px;
   }
 
   .header__container {
@@ -255,6 +285,12 @@ only screen and (                min-resolution: 2dppx) {
     padding-bottom: 2.5rem;
   }
 
+}
+
+@media only screen and (max-width:630px) {
+  .header {
+    background-image:none;
+  }
 }
 
 
@@ -296,6 +332,9 @@ only screen and (                min-resolution: 2dppx) {
   .header {
     padding-top: 1.25rem;
     padding-bottom: 5rem;
+    background-image:url("../img/image-profile-mobile.webp");
+    background-size: 10.875rem auto;
+    background-position:center top;
   }
 
   .header__container {
