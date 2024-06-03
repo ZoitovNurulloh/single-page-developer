@@ -237,3 +237,16 @@ only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) {
 
 }
+
+
+@media only screen and (max-width:768px) {
+  .header {
+    padding-top: 1.875rem;
+    padding-bottom: 3.75rem;
+  }
+
+  .header__container {
+    margin-bottom: 5.625rem;
+  }
+
+  /* FOOTER */
