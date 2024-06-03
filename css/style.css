@@ -308,6 +308,23 @@ only screen and (                min-resolution: 2dppx) {
     margin-bottom: 5.625rem;
   }
 
+  /* HERO */
+  .hero__wrapper {
+    width: 27rem;
+  }
+
+  .hero__heading {
+    font-size: 4.5rem;
+    line-height: 4.5rem;
+    letter-spacing: -2px;
+    margin-bottom: 4.125rem;
+  }
+
+  .hero__description {
+    margin-bottom: 2.125rem;
+  }
+
+
   /* FOOTER */
   .footer {
     padding-top: 1.875rem;
