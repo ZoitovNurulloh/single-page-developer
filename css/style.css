@@ -290,3 +290,16 @@ only screen and (                min-resolution: 2dppx) {
 }
 
 
+@media only screen and (max-width:375px) {
+
+  /* HEADER */
+  .header {
+    padding-top: 1.25rem;
+    padding-bottom: 5rem;
+  }
+
+  .header__container {
+    margin-bottom: 20.75rem;
+  }
+
+  /* FOOTER */
