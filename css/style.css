@@ -213,6 +213,20 @@ input:-webkit-autofill:focus {
 
 
 
+/* FOOTER */
+
+.footer {
+  padding-top: 3rem;
+  padding-bottom: 5.75rem;
+}
+
+.footer__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
 /* RETINA BACKGROUND IMAGES */
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
