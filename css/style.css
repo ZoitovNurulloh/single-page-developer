@@ -259,3 +259,19 @@ only screen and (                min-resolution: 2dppx) {
 
 
 @media only screen and (max-width:470px) {
+
+  /* HEADER */
+
+  .header__container {
+    flex-direction: column;
+  }
+
+  .header__logo {
+    margin-bottom: 1.25rem;
+  }
+
+  .header__container .nav__item:not(:last-child) {
+    margin-right: 1.6rem;
+  }
+
+  /* FOOTER */
