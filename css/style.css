@@ -11,7 +11,7 @@
 @font-face {
   font-family: 'Space Grotesk';
   src: url('../fonts/SpaceGrotesk-Medium.woff2') format('woff2'),
-      url('../fonts/SpaceGrotesk-Medium.woff') format('woff');
+  url('../fonts/SpaceGrotesk-Medium.woff') format('woff');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -20,7 +20,7 @@
 @font-face {
   font-family: 'Space Grotesk';
   src: url('../fonts/SpaceGrotesk-Bold.woff2') format('woff2'),
-      url('../fonts/SpaceGrotesk-Bold.woff') format('woff');
+  url('../fonts/SpaceGrotesk-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -29,7 +29,7 @@
 @font-face {
   font-family: 'Space Grotesk';
   src: url('../fonts/SpaceGrotesk-Regular.woff2') format('woff2'),
-      url('../fonts/SpaceGrotesk-Regular.woff') format('woff');
+  url('../fonts/SpaceGrotesk-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -159,7 +159,7 @@ img {
   display: block;
   color: #fff;
   transition: color 0.4s ease,
-              opacity 0.3s ease;
+  opacity 0.3s ease;
 }
 
 .nav__link:hover {
@@ -303,3 +303,8 @@ only screen and (                min-resolution: 2dppx) {
   }
 
   /* FOOTER */
+  .footer {
+    padding-top: 2.5rem;
+    padding-bottom: 3.75rem;
+  }
+}
