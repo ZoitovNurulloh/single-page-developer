@@ -356,6 +356,28 @@ only screen and (                min-resolution: 2dppx) {
     margin-right: 1.6rem;
   }
 
+  /* HERO */
+  .hero__container {
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero__wrapper {
+    width: 21.4rem;
+  }
+
+  .hero__heading {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    letter-spacing: -1.14px;
+    margin-bottom: 1.875rem;
+  }
+
+  .hero__description {
+    width: 21.4rem;
+    margin-bottom: 1.5rem;
+  }
+
   /* FOOTER */
 
   .footer__container {
@@ -372,7 +394,7 @@ only screen and (                min-resolution: 2dppx) {
 }
 
 
-@media only screen and (max-width:375px) {
+@media only screen and (max-width:376px) {
 
   /* HEADER */
   .header {
