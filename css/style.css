@@ -410,6 +410,24 @@ only screen and (                min-resolution: 2dppx) {
 
 }
 
+@media only screen and (max-width:700px) {
+
+.technologies__list {
+  text-align: center;
+  justify-content: center;
+}
+
+.technologies__item:nth-child(odd) {
+  margin-right: 0;
+}
+
+.technologies__item:not(:last-child) {
+  margin-bottom: 58px;
+}
+}
+
+
+
 @media only screen and (max-width:630px) {
   .header {
     background-image:none;
