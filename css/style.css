@@ -323,6 +323,30 @@ only screen and (                min-resolution: 2dppx) {
   }
 }
 
+
+@media only screen and (max-width:1142px) {
+
+  .technologies__list {
+    justify-content: space-between;
+  }
+
+  .technologies__item {
+    width: 100%;
+    max-width: 22rem;
+    margin-right:0;
+  }
+
+  .technologies__item:nth-child(-n + 4) {
+    margin-bottom: 3.625rem;
+  }
+
+  .technologies__item:nth-child(odd) {
+    margin-right: 0.625rem;
+  }
+
+}
+
+
 @media only screen and (max-width:1050px) {
   .header {
     background-size:20rem auto;
