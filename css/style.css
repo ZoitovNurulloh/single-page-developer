@@ -504,6 +504,23 @@ only screen and (                min-resolution: 2dppx) {
     margin-bottom: 20.75rem;
   }
 
+  /* TECHNOLOGIES */
+  .technologies__wrapper {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .technologies__name {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin-bottom: 0;
+  }
+
+  .technologies__experience {
+    font-size: 1rem;
+    line-height: 1.625rem;
+  }
+
   /* FOOTER */
   .footer {
     padding-top: 2.5rem;
