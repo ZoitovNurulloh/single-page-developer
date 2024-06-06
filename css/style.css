@@ -39,6 +39,7 @@
 
 /* CUSTOM PROPS */
 :root {
+  --black:rgba(0, 0, 0, 0.75);
   --dark:#151515;
   --green:#4ee1a0;
   --gray:#242424;
