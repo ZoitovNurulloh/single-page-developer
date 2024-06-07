@@ -932,6 +932,24 @@ only screen and (                min-resolution: 2dppx) {
     margin-bottom: 2.5rem;
   }
 
+  .contact__wrapper {
+    width: 100%;
+  }
+
+  .contact__info {
+    margin-bottom: 3.125rem;
+  }
+
+  .contact__heading {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+  }
+
+  .contact__description {
+    font-size: 1rem;
+    line-height: 1.625rem;
+  }
+
   /* FOOTER */
   .footer {
     padding-top: 2.5rem;
