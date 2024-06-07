@@ -884,6 +884,11 @@ only screen and (                min-resolution: 2dppx) {
 
 @media only screen and (max-width:376px) {
 
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
   /* HEADER */
   .header {
     padding-top: 1.25rem;
