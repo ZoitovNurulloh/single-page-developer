@@ -406,6 +406,129 @@ color: rgba(52, 49, 61, 0.5);
 }
 
 
+/* CONTACT */
+.contact {
+  background-color: var(--gray);
+}
+.contact__container {
+  padding-top: 5.25rem;
+  padding-bottom: 5.75rem;
+  border-bottom:1px solid #fff;
+}
+
+.contact__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact__info {
+  width: 100%;
+  max-width: 28rem;
+  margin-right: 1rem;
+}
+
+.contact__heading {
+  font-size: 5.5rem;
+  line-height: 5.5rem;
+  letter-spacing: -2.5px;
+  margin-bottom: 2.25rem;
+}
+
+.contact__description {
+  color:var(--light-gray);
+}
+
+
+/* FORM */
+.form {
+  width: 28rem;
+  text-align: right;
+}
+
+
+.form__group {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+  color:#fff;
+}
+
+.form__input {
+  text-transform: uppercase;
+  color:#fff;
+  font-size: 1rem;
+  line-height: 1.625rem;
+  padding-bottom: 1rem;
+  padding-left: 1.5rem;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px solid #fff;
+  letter-spacing: -0.22px;
+}
+
+
+.form__icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  border: 1px solid var(--red);
+  color: var(--red);
+}
+
+.form__massage {
+  position: absolute;
+  display: none;
+  top: 100%;
+  right: 0;
+  color: var(--red);
+  font-size:0.75rem;
+  line-height: 1rem;
+}
+
+.form__success {
+  border-bottom: 1px solid var(--green);
+}
+
+.form__error {
+  border-bottom: 1px solid var(--red);
+}
+
+.form__textarea {
+  position: relative;
+  height: 6.68rem;
+  text-transform: uppercase;
+  font-size: 1rem;
+  line-height: 1.625rem;
+  background-color: transparent;
+  padding-bottom: 5rem;
+  padding-left: 1.5rem;
+  resize: none;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  letter-spacing: -0.22px;
+}
+
+.form__input:focus,
+.form__textarea:focus  {
+  outline: 0;
+}
+
+.form__input:placeholder-shown,
+.form__textarea:placeholder-shown {
+  color:#fff;
+  opacity: 0.5;
+}
+
+
+
+
 
 /* FOOTER */
 
