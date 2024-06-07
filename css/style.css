@@ -632,6 +632,14 @@ only screen and (                min-resolution: 2dppx) {
   .header {
     background-image:none;
   }
+
+  .contact__info {
+    width: 45%;
+  }
+
+  .form {
+    width: 45%;
+  }
 }
 
 
