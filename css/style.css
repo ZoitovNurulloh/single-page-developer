@@ -535,6 +535,7 @@ color: rgba(52, 49, 61, 0.5);
 .footer {
   padding-top: 3rem;
   padding-bottom: 5.75rem;
+  background-color: var(--gray);
 }
 
 .footer__container {
