@@ -112,7 +112,7 @@ img {
   text-transform: uppercase;
   color: #fff;
   background: var(--dark);
-  width: 7.32rem;
+  min-width: 7.32rem;
   text-align: center;
   padding-bottom: 0.75rem;
   border-bottom: 2px solid var(--green);
