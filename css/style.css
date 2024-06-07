@@ -730,6 +730,39 @@ only screen and (                min-resolution: 2dppx) {
     margin-right: 1.875rem;
   }
 
+  .contact__container {
+    padding-top: 3.75rem;
+  }
+
+  .contact__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact__wrapper {
+    width: 445px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contact__info {
+    width: 100%;
+    margin-bottom: 3rem;
+    margin-right: 0;
+  }
+
+  .contact__heading {
+    font-size: 4.5rem;
+    line-height: 4.5rem;
+    margin-bottom: 1.25rem;
+    letter-spacing: -2px;
+  }
+
+  .form {
+    width: 100%;
+  }
+
   /* FOOTER */
   .footer {
     padding-top: 1.875rem;
