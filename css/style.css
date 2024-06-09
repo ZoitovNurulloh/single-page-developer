@@ -320,10 +320,17 @@ color: rgba(52, 49, 61, 0.5);
   justify-content: space-between;
 }
 
+
 .collection__card {
+  display: flex;
+  flex-direction: column;
   position: relative;
   max-width: 33rem;
   width: 100%;
+}
+
+.collection__wrapper {
+  flex-grow: 1;
 }
 
 .collection__card:hover .collection__part {
