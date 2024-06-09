@@ -748,6 +748,7 @@ only screen and (                min-resolution: 2dppx) {
     flex-direction: row;
     height: auto;
     border: 0;
+    background-color: transparent;
   }
 
   .collection__link:not(:last-child) {
