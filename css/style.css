@@ -474,6 +474,23 @@ color: rgba(52, 49, 61, 0.5);
   letter-spacing: -0.22px;
 }
 
+.form__input:valid .form__success {
+  display: block;
+}
+
+.form__textarea {
+  height: 6.68rem;
+  text-transform: uppercase;
+  font-size: 1rem;
+  line-height: 1.625rem;
+  background-color: transparent;
+  padding-bottom: 5rem;
+  padding-left: 1.5rem;
+  resize: none;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  letter-spacing: -0.22px;
+}
 
 .form__icon {
   position: absolute;
