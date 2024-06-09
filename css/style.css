@@ -501,43 +501,33 @@ color: rgba(52, 49, 61, 0.5);
   justify-content: center;
   width: 1.5rem;
   height: 1.5rem;
+  color: var(--red);
   border-radius: 50%;
-  border: 1px solid var(--red);
-  color: var(--red);
+  border:1px solid var(--red);
 }
 
-.form__massage {
+.form__icon--d {
+  display: flex;
+}
+
+.form__text--err {
   position: absolute;
-  display: none;
-  top: 100%;
-  right: 0;
-  color: var(--red);
-  font-size:0.75rem;
+  font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.form__success {
-  border-bottom: 1px solid var(--green);
+  color:var(--red);
+  letter-spacing: -0.17px;
+  bottom: -20px;
+  right: 0;
 }
 
 .form__error {
   border-bottom: 1px solid var(--red);
 }
 
-.form__textarea {
-  position: relative;
-  height: 6.68rem;
-  text-transform: uppercase;
-  font-size: 1rem;
-  line-height: 1.625rem;
-  background-color: transparent;
-  padding-bottom: 5rem;
-  padding-left: 1.5rem;
-  resize: none;
-  color: #fff;
-  border-bottom: 1px solid #fff;
-  letter-spacing: -0.22px;
+.form__success {
+  border-bottom: 1px solid var(--green);
 }
+
 
 .form__input:focus,
 .form__textarea:focus  {
@@ -836,15 +826,8 @@ only screen and (                min-resolution: 2dppx) {
     line-height: 2.5rem;
   }
 
-    .collection {
-      flex-direction: column;
-      align-items: center;
-      justify-content:start;
-    }
-
   .collection__card {
     width: 100%;
-    margin: 0;
   }
 
   .collection__card:nth-child(odd) {
