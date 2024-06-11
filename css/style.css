@@ -72,6 +72,9 @@ body {
   font-weight: 500;
   font-size: 1.125rem;
   line-height: 1.75rem;
+  background-image: url(../img/pattern-rings.svg);
+  background-repeat:no-repeat;
+  background-position:top 8.32rem left -6.25rem;
 }
 
 img {
@@ -253,6 +256,12 @@ color: rgba(52, 49, 61, 0.5);
 
 /* TECHNOLOGIES */
 
+.technologies {
+  background-image: url(../img/pattern-rings.svg);
+  background-repeat:no-repeat;
+  background-position:top 16rem right -15rem;
+}
+
 .technologies__wrapper {
   padding-top: 4.5rem;
   padding-bottom: 8.75rem;
@@ -416,6 +425,9 @@ color: rgba(52, 49, 61, 0.5);
 /* CONTACT */
 .contact {
   background-color: var(--gray);
+  background-image: url(../img/pattern-rings.svg);
+  background-repeat:no-repeat;
+  background-position:top 20.5rem left -13rem ;
 }
 .contact__container {
   padding-top: 5.25rem;
@@ -582,6 +594,7 @@ only screen and (                min-resolution: 2dppx) {
 
   .technologies__list {
     justify-content: space-between;
+    align-items: start;
   }
 
   .technologies__item {
@@ -660,6 +673,10 @@ only screen and (                min-resolution: 2dppx) {
 
 
 @media only screen and (max-width:768px) {
+  body {
+    background-position: top 5.375rem left -16.6rem;
+  }
+
   .header {
     padding-top: 1.875rem;
     padding-bottom: 3.75rem;
@@ -689,6 +706,10 @@ only screen and (                min-resolution: 2dppx) {
 
 
   /* TECHNOLOGIES */
+
+  .technologies {
+  background-position:top 25.75rem right -22.625rem;
+  }
 
   .technologies__wrapper {
     padding-top: 3.2rem;
@@ -744,6 +765,10 @@ only screen and (                min-resolution: 2dppx) {
   .collection__link:not(:last-child) {
     margin-bottom: 0;
     margin-right: 1.875rem;
+  }
+
+  .contact {
+    background-position: top 34rem left -23rem;
   }
 
   .contact__container {
@@ -892,6 +917,9 @@ only screen and (                min-resolution: 2dppx) {
 }
 
 @media only screen and (max-width:376px) {
+  body {
+    background-position: top 7.75rem left -21.3rem;
+  }
 
   .container {
     padding-left: 1rem;
@@ -912,6 +940,10 @@ only screen and (                min-resolution: 2dppx) {
   }
 
   /* TECHNOLOGIES */
+  .technologies {
+  background-position:top 33.75rem right -22.375rem;
+  }
+
   .technologies__wrapper {
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
@@ -939,6 +971,10 @@ only screen and (                min-resolution: 2dppx) {
 
   .collection__card:not(:last-child) {
     margin-bottom: 2.5rem;
+  }
+
+  .contact {
+    background-position:top 27.25rem left -21.5rem;
   }
 
   .contact__wrapper {
