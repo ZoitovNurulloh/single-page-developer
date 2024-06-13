@@ -8,12 +8,17 @@ document.querySelector("#btn").addEventListener("click", function(e) {
 let userName = document.getElementById("username");
 let userEmail = document.getElementById("useremail");
 let userTextArea = document.getElementById("message");
+let errIcon = document.getElementById("form__icon");
+let errIconEmail = document.getElementById("form__icon--email");
+let errIconTextarea = document.getElementById("form__icon--teatarea");
+let formErrText = document.getElementById("form__text--err");
+let formErrTextArea = document.getElementById("form__textarea--err");
+let formErrEmail = document.getElementById("form__email--err");
 
 
 
 function userNameValid() {
-  let errIcon = document.getElementById("form__icon");
-  let formErrText = document.getElementById("form__text--err");
+
   if (userName.value === "" || userName.value == null) {
     errIcon.classList.add("form__icon--d");
     userName.classList.add("form__error");
@@ -27,33 +32,29 @@ function userNameValid() {
 }
 
 function userEmailValid() {
-  let errIcon = document.getElementById("form__icon");
-  let formErrText = document.getElementById("form__text--err");
   if(userEmail.value === "" || userEmail.value == null) {
-    errIcon.classList.add("form__icon--d");
+    errIconEmail.classList.add("form__icon--d");
     userEmail.classList.add("form__error");
-    formErrText.textContent = "Sorry, invalid format here";
+    formErrEmail.textContent = "Sorry, invalid format here";
   }else {
     userEmail.classList.remove("form__error");
     userEmail.classList.add("form__success");
     errIcon.classList.remove("form__icon--d");
-    formErrText.textContent = "";
+    formErrEmail.textContent = "";
   }
 }
 
 function userTextAreaValid() {
-  let errIcon = document.getElementById("form__icon");
-  let formErrText = document.getElementById("form__text--err");
-
   if(userTextArea.value === "" || userTextArea.value == null) {
-    errIcon.classList.add("form__icon--d");
+    errIconTextarea.classList.add("form__icon--d");
     userTextArea.classList.add("form__error");
-    formErrText.textContent = "Sorry, invalid format here";
+    formErrTextArea.textContent = "Sorry, invalid format here";
   }else {
     userTextArea.classList.remove("form__error");
+    errIconTextarea.classList.remove("form__icon--d");
     userTextArea.classList.add("form__success");
     errIcon.classList.remove("form__icon--d");
-    formErrText.textContent = "";
+    formErrTextArea.textContent = "";
   }
 }
 
